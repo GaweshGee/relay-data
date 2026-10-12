@@ -1,0 +1,15 @@
+{
+  "id": "lmt-home2",
+  "fetched_at": "2026-10-12T07:53:39.735651+00:00",
+  "url": "https://lankametro.lk/en",
+  "render": true,
+  "status": 200,
+  "final_url": "https://lankametro.lk/en",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 138747,
+  "truncated": false,
+  "files": [
+    "lmt-home2.html",
+    "lmt-home2.txt"
+  ]
+}
