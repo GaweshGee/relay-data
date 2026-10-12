@@ -1,0 +1,14 @@
+{
+  "id": "triplegs-resp-css",
+  "fetched_at": "2026-10-12T07:26:32.519599+00:00",
+  "url": "https://port-f-delta-sepia.vercel.app/css/responsive.css",
+  "render": false,
+  "status": 200,
+  "final_url": "https://port-f-delta-sepia.vercel.app/css/responsive.css",
+  "content_type": "text/css; charset=utf-8",
+  "bytes": 1516,
+  "truncated": false,
+  "files": [
+    "triplegs-resp-css.txt"
+  ]
+}
