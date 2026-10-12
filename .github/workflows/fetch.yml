@@ -1,0 +1,35 @@
+name: fetch-relay
+on:
+  push:
+    branches: [main]
+    paths: ["requests/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fetch-relay
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install httpx beautifulsoup4
+      - id: need
+        run: echo "render=$(python scripts/relay.py --needs-render)" >> "$GITHUB_OUTPUT"
+      - if: steps.need.outputs.render == 'true'
+        run: pip install playwright && playwright install --with-deps chromium
+      - run: python scripts/relay.py
+      - name: Commit results
+        run: |
+          git config user.name "relay-bot"
+          git config user.email "relay-bot@users.noreply.github.com"
+          git add results
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "relay: results"
+          for i in 1 2 3; do git push && exit 0; git pull --rebase; sleep 2; done
+          exit 1
