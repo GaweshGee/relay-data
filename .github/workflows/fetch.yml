@@ -15,6 +15,8 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -31,5 +33,9 @@ jobs:
           git add results
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "relay: results"
-          for i in 1 2 3; do git push && exit 0; git pull --rebase; sleep 2; done
+          for i in 1 2 3 4 5; do
+            git push origin HEAD:main && exit 0
+            git pull --rebase origin main
+            sleep 3
+          done
           exit 1
