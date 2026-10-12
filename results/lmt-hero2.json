@@ -1,0 +1,14 @@
+{
+  "id": "lmt-hero2",
+  "fetched_at": "2026-10-12T07:54:42.184755+00:00",
+  "url": "https://lankametro.lk/hero-metro-bus.webp",
+  "render": false,
+  "status": 200,
+  "final_url": "https://lankametro.lk/hero-metro-bus.webp",
+  "content_type": "image/webp",
+  "bytes": 339658,
+  "truncated": false,
+  "files": [
+    "lmt-hero2.bin"
+  ]
+}
