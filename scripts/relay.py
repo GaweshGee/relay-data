@@ -115,6 +115,10 @@ def ext_for(ctype, body):
     c = ctype.lower()
     if "html" in c or body[:200].lstrip().lower().startswith((b"<!doctype html", b"<html")):
         return "html"
+    if "javascript" in c or "ecmascript" in c:
+        return "js"
+    if "css" in c:
+        return "css"
     if "json" in c:
         return "json.txt"
     if "xml" in c:
