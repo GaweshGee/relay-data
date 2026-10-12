@@ -1,0 +1,14 @@
+{
+  "id": "mby-castle",
+  "fetched_at": "2026-10-12T07:45:20.448634+00:00",
+  "url": "https://www.worldhistory.org/uploads/images/8736.jpg",
+  "render": false,
+  "status": 200,
+  "final_url": "https://www.worldhistory.org/uploads/images/8736.jpg",
+  "content_type": "image/jpeg",
+  "bytes": 81252,
+  "truncated": false,
+  "files": [
+    "mby-castle.jpg"
+  ]
+}
