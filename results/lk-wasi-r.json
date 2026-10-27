@@ -1,0 +1,15 @@
+{
+  "id": "lk-wasi-r",
+  "fetched_at": "2026-10-27T14:39:22.186002+00:00",
+  "url": "https://wasi.lk/",
+  "render": true,
+  "status": 403,
+  "final_url": "https://wasi.lk/",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 28696,
+  "truncated": false,
+  "files": [
+    "lk-wasi-r.html",
+    "lk-wasi-r.txt"
+  ]
+}
