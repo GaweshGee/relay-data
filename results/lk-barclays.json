@@ -1,0 +1,15 @@
+{
+  "id": "lk-barclays",
+  "fetched_at": "2026-10-27T14:24:59.055728+00:00",
+  "url": "https://www.barclays.lk/",
+  "render": false,
+  "status": 200,
+  "final_url": "https://www.barclays.lk/",
+  "content_type": "text/html",
+  "bytes": 130057,
+  "truncated": false,
+  "files": [
+    "lk-barclays.html",
+    "lk-barclays.txt"
+  ]
+}
