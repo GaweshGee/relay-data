@@ -1,0 +1,15 @@
+{
+  "id": "lk-nano-q3",
+  "fetched_at": "2026-10-27T14:49:37.939042+00:00",
+  "url": "https://www.nanotek.lk/category/laptop?page=3",
+  "render": true,
+  "status": 200,
+  "final_url": "https://www.nanotek.lk/category/laptop?page=3",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 114154,
+  "truncated": false,
+  "files": [
+    "lk-nano-q3.html",
+    "lk-nano-q3.txt"
+  ]
+}
