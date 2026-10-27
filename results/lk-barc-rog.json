@@ -1,0 +1,15 @@
+{
+  "id": "lk-barc-rog",
+  "fetched_at": "2026-10-27T14:25:57.691394+00:00",
+  "url": "https://www.barclays.lk/rog-gaming-pcs.asp?Cc=299&iTpStatus=1&Tp=&Bc=",
+  "render": false,
+  "status": 200,
+  "final_url": "https://www.barclays.lk/rog-gaming-pcs.asp?Cc=299&iTpStatus=1&Tp=&Bc=",
+  "content_type": "text/html",
+  "bytes": 103578,
+  "truncated": false,
+  "files": [
+    "lk-barc-rog.html",
+    "lk-barc-rog.txt"
+  ]
+}
