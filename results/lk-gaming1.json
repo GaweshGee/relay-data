@@ -1,0 +1,14 @@
+{
+  "id": "lk-gaming1",
+  "fetched_at": "2026-10-27T14:26:20.837756+00:00",
+  "url": "https://laptop.lk/collections/gaming-laptops/products.json?limit=250",
+  "render": false,
+  "status": 200,
+  "final_url": "https://laptop.lk/collections/gaming-laptops/products.json?limit=250",
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 157653,
+  "truncated": false,
+  "files": [
+    "lk-gaming1.json.txt"
+  ]
+}
