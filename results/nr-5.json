@@ -1,0 +1,14 @@
+{
+  "id": "nr-5",
+  "fetched_at": "2026-11-16T16:14:17.513897+00:00",
+  "url": "https://nero.lorenzobocchi.com/_next/static/immutable/chunks/turbopack-1cvbnb3nlabgn.js",
+  "render": false,
+  "status": 200,
+  "final_url": "https://nero.lorenzobocchi.com/_next/static/immutable/chunks/turbopack-1cvbnb3nlabgn.js",
+  "content_type": "application/javascript; charset=utf-8",
+  "bytes": 10030,
+  "truncated": false,
+  "files": [
+    "nr-5.js"
+  ]
+}
