@@ -1,0 +1,14 @@
+{
+  "id": "nr-22",
+  "fetched_at": "2026-11-16T16:25:45.247318+00:00",
+  "url": "https://nero.lorenzobocchi.com/_next/static/immutable/chunks/3dgl--x694l84.js",
+  "render": false,
+  "status": 200,
+  "final_url": "https://nero.lorenzobocchi.com/_next/static/immutable/chunks/3dgl--x694l84.js",
+  "content_type": "application/javascript; charset=utf-8",
+  "bytes": 32294,
+  "truncated": false,
+  "files": [
+    "nr-22.js"
+  ]
+}
