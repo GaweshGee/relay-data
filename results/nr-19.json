@@ -1,0 +1,14 @@
+{
+  "id": "nr-19",
+  "fetched_at": "2026-11-16T16:25:03.246704+00:00",
+  "url": "https://nero.lorenzobocchi.com/_next/static/immutable/chunks/31m-5zr4b05tp.js",
+  "render": false,
+  "status": 200,
+  "final_url": "https://nero.lorenzobocchi.com/_next/static/immutable/chunks/31m-5zr4b05tp.js",
+  "content_type": "application/javascript; charset=utf-8",
+  "bytes": 241717,
+  "truncated": false,
+  "files": [
+    "nr-19.js"
+  ]
+}
